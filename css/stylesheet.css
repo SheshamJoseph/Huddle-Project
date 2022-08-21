@@ -151,7 +151,7 @@ body {
     width: 60%;
     height: 100%;
     border-radius: 20px;
-    box-shadow: 2px 3px 5px gray;
+    box-shadow: 2px 3px 5px rgb(61, 60, 60);
     padding: 25px 10px 40px 10px;
     margin: 10px;
     justify-content: center;
@@ -251,6 +251,8 @@ body {
 .left .socials {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
 }
 .left .socials img {
     width: 32px;
@@ -260,6 +262,8 @@ body {
     justify-content: center;
 }
 .left .socials a {
+    width: 32px;
+    height: 32px;
     padding: 0;
     margin: 0;
     border-radius: 64px;
